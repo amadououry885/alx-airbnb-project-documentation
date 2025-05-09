@@ -1,33 +1,30 @@
 
-### 2. **`README.md` for the `features-and-functionalities` Folder**
-This file should describe the specific content of the `features-and-functionalities` folder, like the diagram and any other documentation you’ve added.
+# Airbnb Clone Backend Features and Functionalities
 
-#### Example content for the `features-and-functionalities/README.md`:
+## Overview
+This document outlines the key features and functionalities required for the Airbnb Clone backend system. The backend will support features such as user authentication, property management, booking system, payments, reviews, and more.
 
-```markdown
-# Features and Functionalities
+## Features and Functionalities
+The backend needs to support the following core features:
 
-This directory contains a diagram that details the key features and functionalities of the Airbnb Clone backend. It covers core features such as:
-
-- User Authentication
-- Property Management
-- Booking System
-- Payment Integration
-- Reviews and Ratings
-- Notifications System
-- Admin Dashboard
+1. **User Management**
+   - User Registration
+   - User Login (JWT, OAuth)
+   - Profile Management
+2. **Property Listings Management**
+   - Add/Edit/Delete Property Listings
+3. **Booking System**
+   - Booking Creation and Cancellation
+   - Booking Status Management
+4. **Payment Integration**
+   - Handle Payments and Payouts (Stripe, PayPal)
+   - Multi-currency support
+5. **Reviews and Ratings**
+   - Guests can leave reviews and ratings
+6. **Admin Dashboard**
+   - Admin Monitoring (Users, Listings, Bookings)
 
 ## Diagram
+Below is the visual representation of the system's features and functionalities:
 
-# Features and Functionalities
-
-This diagram illustrates the backend features and functionalities of the Airbnb Clone project.
-
-👉 [Click here to view the full diagram on Google Drive](https://drive.google.com/file/d/188MEOOSmZbZRITojDT5qg7J1dOnhqKlM/view?usp=sharing)
-
-
-The diagram provides a visual representation of the system and the relationships between the different entities in the backend.
-
-## How to Use
-
-You can use this document as a reference for understanding the backend structure and implementing the necessary features.
+![Feature Diagram](features-and-functionalities/airbnb-backend-features.png)
