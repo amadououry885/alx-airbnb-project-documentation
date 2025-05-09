@@ -27,4 +27,4 @@ The backend needs to support the following core features:
 ## Diagram
 Below is the visual representation of the system's features and functionalities:
 
-![Feature Diagram](features-and-functionalities/airbnb-backend-features.png)
+![Feature Diagram](alx-airbnb-project-documentation/features-and-functionalities/airbnb-backend-features.png)
